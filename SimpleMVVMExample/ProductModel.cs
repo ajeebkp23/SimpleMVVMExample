@@ -1,9 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-
-namespace SimpleMVVMExample
+﻿namespace SimpleMVVMExample
 {
     public class ProductModel : ObservableObject
     {
@@ -13,9 +8,12 @@ namespace SimpleMVVMExample
         private string _productName;
         private decimal _unitPrice;
 
-        #endregion // Fields
+        #endregion Fields
 
         #region Properties
+
+
+
 
         public int ProductId
         {
@@ -56,6 +54,6 @@ namespace SimpleMVVMExample
             }
         }
 
-        #endregion // Properties
+        #endregion Properties
     }
 }

@@ -18,7 +18,8 @@ namespace SimpleMVVMExample
 
             MainWindow app = new MainWindow();
             ProductViewModel context = new ProductViewModel();
-            app.DataContext = context;
+            ProductModel pm = new ProductModel { ProductName = "FirstProduct", ProductId = 1, UnitPrice = 13 };
+            app.DataContext = pm;
             app.Show();
         }
 
